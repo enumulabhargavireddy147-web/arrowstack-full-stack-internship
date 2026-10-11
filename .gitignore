@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Runtime data (file-backed store snapshots)
+project-*/data/
+*.json.bak
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log

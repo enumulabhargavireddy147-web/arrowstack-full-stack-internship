@@ -1,0 +1,18 @@
+{
+  "name": "arrowstack-full-stack-internship",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Arrowstack 1-Month Full Stack Development Internship — three progressive projects (B2B Order Management, Employee Service Requests, Subscription Analytics SaaS MVP).",
+  "scripts": {
+    "test": "bash test/run-all.sh",
+    "start:p1": "PORT=4001 node project-1-b2b-order-management/server/index.js",
+    "start:p2": "PORT=4002 node project-2-employee-service-requests/server/index.js",
+    "start:p3": "PORT=4003 node project-3-subscription-analytics/server/index.js"
+  },
+  "dependencies": {
+    "alasql": "^4.4.0",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
